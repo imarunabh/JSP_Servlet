@@ -31,7 +31,7 @@ public class Servlet2 extends HttpServlet {
 			out.println("</head>");
 			out.println("<body>");
 			//name fetch
-			String name = request.getParameter("user");
+			String name = request.getParameter("user_name");
 			out.println("<h1 style='color:red;'>welcome back"+name+"</h1>");
 			
 			
